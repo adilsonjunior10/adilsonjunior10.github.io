@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Adilson Junior</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="https://kit.fontawesome.com/59232e7559.js" crossorigin="anonymous"></script>
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
+
+			<!-- Header -->
+			<header id="header">
+
+				<!--<img src="assets/css/images/logo1.png" alt="some text" height=60"><br>-->
+				<img id="profile-img" src="assets/css/images/profile4.jpg" alt="some text" width=120 height=120
+					style="border-radius: 50%;">
+				<h1>Adilson Junior</h1>
+				<p style="font-size: 30px; color: white;">Desenvolvedor Mobile & Web</p>
+				<p>
+					<span id="htag">#Flutter</span>
+					&ensp;
+					<span id="htag">#Dart</span>
+					&ensp;
+					<span id="htag">#Javascript</span>
+				</p>
+				<nav>
+					<ul>
+						<!-- <li><a href="tel:035987129728" class="icon fas fa-phone"><span class="label">Ligar</span></a>
+						</li> -->
+
+						<li class="tooltip"> <a href="https://github.com/adilsonjunior10" target="_blank" class="fab fa-github"><span
+									class="label">Github</span></a> <span class="tooltiptext">Repositório Github</span> </li>
+
+						<li class="tooltip"><a href="https://www.instagram.com/adilsonjunior.dev/" target="_blank"
+								class="fab fa-instagram"><span class="label">Instagram</span></a> <span class="tooltiptext">Veja meu Instagram</span> </li>
+
+						<li class="tooltip"><a href="mailto:juninho_backer@hotmail.com" class="far fa-envelope"><span
+									class="label">Email</span></a> <span class="tooltiptext">Enviar um email</span> </li>
+
+						<li class="tooltip"><a id="whatsapp" href="http://api.whatsapp.com/send?1=pt_BR&phone=5535987129728"
+								target="_blank" class="fab fa-whatsapp"><span class="label">WhatsApp</span></a> <span class="tooltiptext">Mensagem Whatsapp</span> </li>
+								
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; Adilson Junior
+				</span>
+			</footer>
+		</div>
+	</div>
+
+	<script>
+		window.onload = function () {
+			document.body.classList.remove('is-preload');
+			alteraCor();
+		}
+
+		window.ontouchmove = function () {
+			return false;
+		}
+
+		window.onorientationchange = function () {
+			document.body.scrollTop = 0;
+		}
+	</script>
+
+</body>
+
+</html>
